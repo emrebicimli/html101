@@ -14,6 +14,9 @@
     </div>
     <p style="margin-bottom: 500px">Lorem ipsum <span style="text-decoration: underline;">Lorem ipsum dolor sit amet.</span>
         dolor sit amet consectetur, adipisicing elit. Numquam aspernatur dolor ipsa alias nulla? Sint omnis aut neque aliquid magnam necessitatibus Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum, eius!</p>
+        <h2>
+            Tables
+        </h2>
         <table border="1" width="100%">
             <tr>
                 <td>First cell here</td>
@@ -53,11 +56,57 @@
                 </tbody>
             </table>
         </table>
-        <div style="padding: 40px; background-color: black; color: white;">
+        <style>
+            .classNameHere {
+                padding: 40px;
+                background-color: black;
+                color: white;
+            }
+            .upperCase {
+                text-transform: uppercase;
+            }
+            #testingId {
+                border: 15px solid red;
+            }
+        </style>
+        <div class="classNameHere">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis hic id voluptate deserunt consequatur optio saepe voluptas sequi, alias quasi vel assumenda quaerat ducimus nemo incidunt asperiores recusandae distinctio. Error.
             
         </div>
-    <div id="bottom"><a href="#top">Back to the top</a>
+        <div id="testingId">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi consectetur doloremque dolor culpa molestiae deleniti tenetur odio rem quisquam ullam, aperiam pariatur commodi vel! Ut ratione dolore accusantium fugit culpa.
+        </div>
+        <div class="classNameHere upperCase">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium voluptatum quod amet id facere quasi quas odit, eos nesciunt blanditiis ipsam ullam error itaque architecto incidunt adipisci maiores eligendi. Excepturi?
+        </div>
+        <h2>
+            Forms
+        </h2>
+        <form action="./2ndpage.html" method="GET">
+            <div>
+            <input required type="text" placeholder="name">
+            </div>
+            <div>
+            <textarea required name="" id="" cols="50" rows="5"></textarea>
+            </div>
+            <div>
+                <select name="selected_option" id="">
+                    <option value="selected_by_default" selected="selected">Selected By default</option>
+                    <option value="value1">This is value1</option>
+                    <option value="value2">This is value2</option>
+                    <option value="value3">This is value3</option>
+                </select>
+            </div>
+            <div>
+            <button type="submit">submit this form</button>
+            </div>
+        </form>
+        <h2>Embedding Videos</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/R7BRf5uPvaQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <div id="bottom">
+        <a href="#top">Back to the top</a>
+        <sup>&copy;</sup>2021
     </div>
 </body>
 </html>
